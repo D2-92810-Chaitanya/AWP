@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 25px;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .green {
+        background-color: darkgreen;
+        width: 20%;
+      }
+
+      .orange {
+        background-color: orange;
+        width: 19%;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Row1</p>
+    <div class="row">
+      <div style="background-color: red; width: 50%"></div>
+      <div style="background-color: blue; width: 50%"></div>
+    </div>
+    <p>Row2</p>
+    <div class="row">
+      <div style="background-color: darkgreen; width: 95%"></div>
+      <div style="background-color: blue; width: 5%"></div>
+    </div>
+    <p>Student TODOs</p>
+    <p>Row3</p>
+    <div class="row">
+      <div style="background-color: red; width: 5%"></div>
+      <div style="background-color: darkgreen; width: 90%"></div>
+      <div style="background-color: blue; width: 5%"></div>
+    </div>
+    <p>Row4</p>
+    <div class="row">
+      <div style="background-color: red; width: 95%"></div>
+      <div style="background-color: blue; width: 5%"></div>
+    </div>
+    <p>Row5</p>
+    <div
+      class="row"
+      style="
+        background-color: darkgreen;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div style="background-color: red; width: 2.5%; height: 60%"></div>
+    </div>
+    <p>Row6</p>
+    <div class="row" style="background-color: red; justify-content: center">
+      <div style="background-color: blue; width: 5%"></div>
+    </div>
+    <p>Row7</p>
+    <div class="row">
+      <div style="background-color: red; width: 5%"></div>
+
+      <div
+        style="
+          background-color: blue;
+          width: 95%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div
+          style="background-color: darkgreen; height: 30%; width: 100%"
+        ></div>
+      </div>
+    </div>
+    <p>Row8</p>
+    <div
+      class="row"
+      style="background-color: orange; justify-content: space-evenly"
+    >
+      <div class="green"></div>
+      <div class="green"></div>
+      <div class="green"></div>
+      <div class="green"></div>
+    </div>
+    <p>Row9</p>
+    <div
+      class="row"
+      style="background-color: darkgreen; justify-content: space-between"
+    >
+      <div class="orange"></div>
+      <div class="orange"></div>
+      <div class="orange"></div>
+      <div class="orange"></div>
+      <div class="orange"></div>
+    </div>
+  </body>
+</html>

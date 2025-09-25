@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunbeam Registraion Form</title>
+    <style>
+      header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="new_logo.png" alt="Sunbeam Logo" />
+      <h1>Sunbeam Registration Form</h1>
+    </header>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <iframe
+              width="424"
+              height="238"
+              src="https://www.youtube.com/embed/02q9aAVv1NI"
+              title=""
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </td>
+          <td>
+            <form>
+              <table>
+                <tbody>
+                  <tr>
+                    <div>
+                      <td>
+                        <label>Name:</label>
+                      </td>
+                      <td>
+                        <input type="text" name="name" required />
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td>
+                        <label>DOB:</label>
+                      </td>
+                      <td>
+                        <input type="date" name="birthdate" required />
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td>
+                        <label>Email:</label>
+                      </td>
+                      <td>
+                        <input type="email" name="email" required />
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td>
+                        <label>Password:</label>
+                      </td>
+                      <td>
+                        <input type="password" name="password" required />
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td>
+                        <label>Address:</label>
+                      </td>
+                      <td>
+                        <textarea
+                          name="address"
+                          rows="3"
+                          cols="20"
+                          required
+                        ></textarea>
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td>
+                        <label> Gender: </label>
+                      </td>
+                      <td>
+                        <label
+                          ><input
+                            type="radio"
+                            name="Gender"
+                            value="male"
+                            required
+                          />Male</label
+                        >
+                        <label
+                          ><input
+                            type="radio"
+                            name="Gender"
+                            value="female"
+                            required
+                          />Female</label
+                        >
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td>
+                        <label> Upload Photo: </label>
+                      </td>
+                      <td>
+                        <input
+                          type="file"
+                          name="photo"
+                          accept="image/*"
+                          required
+                        />
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td>
+                        <label>Select Your Course:</label>
+                      </td>
+                      <td>
+                        <select id="course" name="course">
+                          <option
+                            value="select course"
+                            disabled
+                            selected
+                            hidden
+                          >
+                            Select Course
+                          </option>
+                          <option value="java">Java</option>
+                          <option value="python">Python</option>
+                          <option value="cpp">C++</option>
+                        </select>
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td>
+                        <label>Skill Set:</label>
+                      </td>
+                      <td>
+                        <label for="java"
+                          ><input
+                            type="checkbox"
+                            id="java"
+                            name="Skill"
+                            value="Java"
+                          />Java</label
+                        >
+                        <label for="CPP"
+                          ><input
+                            type="checkbox"
+                            id="CPP"
+                            name="Skill"
+                            value="CPP"
+                          />
+                          CPP</label
+                        >
+                        <label for="OS"
+                          ><input
+                            type="checkbox"
+                            id="OS"
+                            name="Skill"
+                            value="OS"
+                          />OS</label
+                        >
+                      </td>
+                    </div>
+                  </tr>
+                  <tr>
+                    <div>
+                      <td></td>
+                      <td>
+                        <input type="submit" value="Register" />
+                        <input type="reset" value="Clear" />
+                      </td>
+                    </div>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
